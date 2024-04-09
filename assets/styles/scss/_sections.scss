@@ -1,0 +1,43 @@
+// intro
+.intro{
+    background-color: $mainColor;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// menu
+.menu{
+    .navbar-toggler{
+        border:transparent solid 1px;
+    }
+}
+
+// banner
+.banner{
+    padding: 0;
+    img{
+        width: 100%;
+    }
+}
+
+// second nav
+.second-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        display: flex;
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: .8em;
+            border: solid 1px $mainColor;
+            border-radius: 8px;
+            list-style:none;
+        }
+    }
+}

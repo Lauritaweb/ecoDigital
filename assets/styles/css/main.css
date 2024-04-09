@@ -1,3 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.text-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
+.text-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container {
+  width: 98%;
+}
+
+.intro {
+  background-color: rgb(62, 153, 138);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .navbar-toggler {
+  border: transparent solid 1px;
+}
+
+.banner {
+  padding: 0;
+}
+.banner img {
+  width: 100%;
+}
+
+.second-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-nav ul {
+  display: flex;
+}
+.second-nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em;
+  border: solid 1px rgb(62, 153, 138);
+  border-radius: 8px;
+  list-style: none;
+}
 
 /*# sourceMappingURL=main.css.map */

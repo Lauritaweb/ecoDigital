@@ -1,0 +1,32 @@
+// colors
+$mainColor:rgb(62, 153, 138);
+$secondaryColor:rgb(106, 192, 145);
+$keyColor:rgb(8, 76, 89);
+$thirdColor:rgb(175, 230, 162);
+$fourthColor:rgb(184, 230, 140);
+$white:white;
+
+// fonts
+$mainFont: "Roboto", sans-serif;
+
+// clases
+.text-light {
+    font-family: $mainFont;
+    font-weight: 300;
+    font-style: normal;
+  }
+.text-regular{
+    font-family: $mainFont;
+    font-weight: 400;
+    font-style: normal;
+}
+.text-bold{
+    font-family: $mainFont;
+    font-weight: 600;
+    font-style: normal;
+}
+
+// utilities
+.container{
+    width: 98%;
+}
