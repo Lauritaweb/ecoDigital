@@ -47,6 +47,8 @@
 }
 .second-nav ul {
   display: flex;
+  padding: 0;
+  gap: 10px;
 }
 .second-nav ul li {
   display: flex;
@@ -57,6 +59,7 @@
   border: solid 1px rgb(62, 153, 138);
   border-radius: 8px;
   list-style: none;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
